@@ -1,0 +1,1 @@
+在config/index.js的module.exports配置中找到autoOpenBrowser，改为true再重启项目。
