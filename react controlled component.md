@@ -1,4 +1,4 @@
-# 一个react报错
+# react controlled error
 
 报错:
 ```
