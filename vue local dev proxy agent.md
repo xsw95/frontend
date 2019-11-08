@@ -1,4 +1,6 @@
+# vue本地开发代理
 在vue项目中，在本地使用proxy代理的时候，经常会发生请求线上接口timeout的问题，原因是vue的代理没有成功科学上网，需要添加agent来实现，例如：
+```
 'use strict'
 
 const path = require('path')
@@ -55,3 +57,4 @@ module.exports = {
     cssSourceMap: true,
   },
 }
+```
